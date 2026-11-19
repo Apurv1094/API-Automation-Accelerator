@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Accelerator V3">
+    <listeners>
+        <listener class-name="com.accelerator.listeners.TestListener" />
+    </listeners>
+    <test name="DummyJSON">
+        <classes>
+            <class name="com.accelerator.tests.ProductApiTest" />
+            <class name="com.accelerator.tests.UserApiTest" />
+            <class name="com.accelerator.tests.CartApiTest" />
+            <class name="com.accelerator.tests.AuthApiTest" />
+        </classes>
+    </test>
+</suite>

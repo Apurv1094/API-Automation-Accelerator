@@ -1,0 +1,14 @@
+{
+  "createProduct": {
+    "title": "QA Laptop",
+    "price": 999,
+    "category": "laptops"
+  },
+  "updateProduct": {
+    "title": "Updated Laptop",
+    "price": 799
+  },
+  "patchProduct": {
+    "price": 123
+  }
+}

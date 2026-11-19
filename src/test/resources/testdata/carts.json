@@ -1,0 +1,20 @@
+{
+  "createCart": {
+    "userId": 1,
+    "products": [
+      {
+        "id": 1,
+        "quantity": 2
+      }
+    ]
+  },
+  "updateCart": {
+    "merge": true,
+    "products": [
+      {
+        "id": 1,
+        "quantity": 3
+      }
+    ]
+  }
+}

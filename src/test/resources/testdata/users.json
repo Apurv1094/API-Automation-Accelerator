@@ -1,0 +1,10 @@
+{
+  "createUser": {
+    "firstName": "QA",
+    "lastName": "Engineer",
+    "age": 28
+  },
+  "updateUser": {
+    "firstName": "UpdatedQA"
+  }
+}
