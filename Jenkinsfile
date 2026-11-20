@@ -10,7 +10,7 @@ pipeline {
     parameters {
         choice(
             name: 'ENV',
-            choices: ['local', 'qa'],
+            choices: ['local', 'qa', 'ci'],
             description: 'Select API environment'
         )
 
